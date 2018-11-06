@@ -2,10 +2,10 @@
 
 namespace TSRichSnippet\Providers;
 
-use Plenty\Plugin\RouteServiceProver;
+use Plenty\Plugin\RouteServiceProvider;
 use Plenty\Plugin\Routing\Router;
 
-class TSRichSnippetRouteServiceProvider extends RouteServiceProver
+class TSRichSnippetRouteServiceProvider extends RouteServiceProvider
 {
   public function map(Router $router)
   {
