@@ -6,7 +6,7 @@ use Plenty\Plugin\ServiceProvider;
 
 class RichSnippetCodeProvider extends ServiceProvider
 {
-  public call(Twig $twig)
+  public function call(Twig $twig)
   {
     return $twig->render('TSRichSnippet::content.hello');
   }
