@@ -1,0 +1,8 @@
+{
+  "name"            : "TSRichSnippet",
+  "desription"      : "Includes a Trsuted Shops rich snippet",
+  "namespace"       : "TSRichSnippet",
+  "author"          : "GRoysch",
+  "type"            : "template",
+  "serviceProvider" : "TSRichSnippet\\Providers\\TSRichSnippetServiceProvider"
+}
