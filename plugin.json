@@ -4,5 +4,12 @@
   "namespace"       : "TSRichSnippet",
   "author"          : "GRoysch",
   "type"            : "template",
-  "serviceProvider" : "TSRichSnippet\\Providers\\TSRichSnippetServiceProvider"
+  "serviceProvider" : "TSRichSnippet\\Providers\\TSRichSnippetServiceProvider",
+  "dataProviders"   : [
+      {
+        "key"         : "TSRichSnippet\\Providers\\RichSnippetCodeProvider",
+        "name"        : "Trusted Shops rich snippet code",
+        "description" : "Include Trusted Shops rich snippet code"
+      }
+  ]
 }
