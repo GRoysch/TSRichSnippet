@@ -5,11 +5,15 @@
   "author"          : "GRoysch",
   "type"            : "template",
   "serviceProvider" : "TSRichSnippet\\Providers\\TSRichSnippetServiceProvider",
+  "containers"      : [],
+  "javaScriptFiles" : [],
   "dataProviders"   : [
       {
         "key"         : "TSRichSnippet\\Providers\\RichSnippetCodeProvider",
         "name"        : "Trusted Shops rich snippet code",
         "description" : "Include Trusted Shops rich snippet code"
       }
-  ]
+  ],
+  "dependencies"    : [],
+  "runOnBuild"      : []
 }
