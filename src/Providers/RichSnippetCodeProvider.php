@@ -1,6 +1,6 @@
 <?php
 
-namepsace TSRichSnippet;
+namespace TSRichSnippet;
 
 use Plenty\Plugin\ServiceProvider;
 
