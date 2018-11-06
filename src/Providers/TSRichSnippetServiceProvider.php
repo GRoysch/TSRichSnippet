@@ -3,6 +3,7 @@
 namespace TSRichSnippet\Providers;
 
 use Plenty\Plugin\ServiceProvider;
+use Plenty\Plugin\Templates\Twig;
 
 class TSRichSnippetServiceProvider extends serviceProvider
 {
@@ -14,4 +15,12 @@ class TSRichSnippetServiceProvider extends serviceProvider
    {
      $this->getApplication()->register(TSRichSnippetRouteServiceProvider::class);
    }
+
+   /**
+    * boot twig extensions and Services
+    */
+   public function boot(Twig $twig)
+   {
+   }
+
 }
